@@ -1,0 +1,120 @@
+body {
+  background-color: #D6C2CD;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+img {
+  box-shadow: rgba(0,0,0,0.2) 10px 10px;
+}
+
+#navbar {
+  position: fixed;
+  top:10px;
+  left:70%;
+}
+
+#header {
+  position: relative;
+  background-color: #D8CC84;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 2px dashed black;
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  margin-top: -8px;
+}
+
+li {
+  display: inline;
+  border: 2px solid #000000;
+  font-family: Avenir, sans-serif;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px 5px;
+  background-color: #D8CC84
+}
+
+#left{
+  width: 45%;
+  float: left;
+}
+
+p {
+  font-family: Avenir, sans-serif;
+  font-size: 1em;
+}
+
+#right{
+  width: 45%;
+  float: right;
+}
+
+table {
+  border: #000000 1px solid;
+  background-color: #A5DCBF;
+  float: right;
+  margin-right: 10px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+#bottom_left{
+  border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+  border-bottom-right-radius: 15px;
+}
+
+#footer{
+  clear: both;
+  border: 2px dashed black;
+  position: relative;
+  bottom: -20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 75px;
+  background-color: #A5DCBF;
+}
+
+#button{
+  border: 1px solid #000000;
+  float:left;
+  position: relative;
+  left: 229px;
+  bottom: -20px;
+  border-radius: 5px;
+  background-color: #D8CC84;
+  height: 30px;
+  width: 150px;
+  
+}
+
+#button p{
+  position: relative;
+  bottom: 10px;
+  font-size: 0.8em;
+  color: #black;
+  text-align: center;
+}
+
+.bold{
+  font-family: Avenir;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  color: black;
+}
